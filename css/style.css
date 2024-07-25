@@ -1,0 +1,38 @@
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.logo-img {
+    max-width: 170px;
+    height: auto;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.vertical-line {
+    border-left: 3px solid #fff; 
+    height: 100%; 
+    margin-right: 4%;
+}
+
+.align-bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
